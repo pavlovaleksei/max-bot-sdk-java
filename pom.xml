@@ -98,12 +98,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
 
     <profiles>
         <profile>
@@ -255,5 +249,9 @@
                 <enabled>false</enabled>
             </releases>
         </repository>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
     </repositories>
 </project>
